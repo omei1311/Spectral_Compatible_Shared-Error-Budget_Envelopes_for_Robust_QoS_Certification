@@ -1,0 +1,14 @@
+{
+ "n": 2160,
+ "decisions": {
+  "certified_feasible": 1247,
+  "certified_infeasible": 913
+ },
+ "max_abs_diff": 5.573183470275467e-08,
+ "max_L_excess": -1.1693077062169266e-13,
+ "max_U_deficit": 1.333155807969888e-12,
+ "misaccept": 0,
+ "misreject": 0,
+ "bound_order_violations": 0,
+ "med_wall": 0.005702300000848481
+}

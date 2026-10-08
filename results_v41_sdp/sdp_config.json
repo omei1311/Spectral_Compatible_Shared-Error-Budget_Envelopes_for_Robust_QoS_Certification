@@ -1,0 +1,19 @@
+{
+ "written_at": "2026-10-06T22:53:29",
+ "purpose": "small-scale SDP verification set; selection rules fixed independently of SDP behaviour",
+ "selection_rules": {
+  "theorem2": "flip family at the Q_G minimizer, eps in {1e-2,1e-3,1e-4}",
+  "theorem3": "four fixed (p,I0) boundary instances",
+  "degenerate": "alpha=0, beta=0, r=0 singletons",
+  "trust_region": "PSD interior, singular, hard-case equality, repeated minimum eigenvalue",
+  "pool": "first candidate of each validation seed 211-215, rho=0.15, all gamma, all users"
+ },
+ "solver": "CLARABEL",
+ "rounding_allowance_k": 10.0,
+ "cvxpy_version": "1.7.5",
+ "code_hashes": {
+  "core.py": "d388d1c7c46d11d6767dba744191437fcf1485565a8e3983280446bf10d39b00",
+  "sdp_baseline.py": "27b16be848632eba567c65d59eabed09bda8365110074600335c33d8193bd739",
+  "optimization_v41.py": "fbf70508215bec9141713f3a6c4499c4583529e7ed0696992b27616c036d0c85"
+ }
+}

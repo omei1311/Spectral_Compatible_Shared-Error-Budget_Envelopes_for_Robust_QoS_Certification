@@ -1,0 +1,12 @@
+test,expected,got,ok,note
+neg_lb_feasible_not_rejected,unresolved,unresolved,1,q*=0.0346; v1 logic would have rejected on L=-0.5
+neg_lb_with_witness_no_false_reject,not infeasible,unresolved,1,
+witness_confirms_infeasible,certified_infeasible,certified_infeasible,1,"U=-0.957084252055549, q*=-0.9571175076515038"
+straddling_unresolved,unresolved,unresolved,1,
+near_threshold_consistent,consistent + threshold logic,certified_infeasible,1,|q*|/tau=8105677.9; synthetic threshold checks ok
+witness_projected,"projected, ball residual 0","projected=True, resid=0.0e+00",1,raw norm 3.00 > r=0.5
+nonfinite_input_invalid,invalid_input,invalid_input,1,
+non_hermitian_invalid,invalid_input,invalid_input,1,
+negative_radius_raises,ValueError,ValueError,1,
+invalid_flag_unresolved,unresolved_invalid,unresolved_invalid,1,
+scaling_invariant_decisions,identical across 1e-3..1e3,certified_infeasible/certified_infeasible/certified_infeasible,1,"scales tested 1e-3, 1, 1e3 -> ['certified_infeasible', 'certified_infeasible', 'certified_infeasible']"

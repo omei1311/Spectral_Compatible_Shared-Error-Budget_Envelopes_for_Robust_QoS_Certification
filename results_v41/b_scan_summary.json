@@ -1,0 +1,12 @@
+{
+ "n_points": 21,
+ "reference_valid_all": true,
+ "tol": 1e-09,
+ "lb_violations": 0,
+ "lb_violation_max_dev": 0.0,
+ "approx_violations": 0,
+ "approx_violation_max_dev": 0.0,
+ "min_gap_qstar_to_lb": 0.006633253626537883,
+ "l_quad_above_QG": 0,
+ "note": "approximate-minimum inversions below tol are roundoff, never an acceptance criterion"
+}

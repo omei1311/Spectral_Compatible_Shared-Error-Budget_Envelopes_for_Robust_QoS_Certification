@@ -1,0 +1,18 @@
+{
+ "mode": "full",
+ "finished_at": "2026-10-07T14:24:02",
+ "failures": [],
+ "fa_seeds": [
+  301,
+  302,
+  303,
+  304,
+  305
+ ],
+ "fb_seeds": [
+  311,
+  312,
+  313
+ ],
+ "confounders": "F-B: 4 users, per-BS power 1 (per-stream 0.5), gamma=1, rho=0.15, noise 0.05, identical candidate rules; only antennas vary"
+}

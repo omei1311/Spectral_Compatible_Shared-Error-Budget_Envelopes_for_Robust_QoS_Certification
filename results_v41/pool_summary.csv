@@ -1,0 +1,7 @@
+method,units,accepted,accept_rate,misaccept,unknown,unknown_rate,coverage,qg_added_vs_Qold
+D,180,180,1,0,0,0,1,
+Q_old,180,180,1,0,0,0,1,
+Q_G,180,180,1,0,0,0,1,0
+L_quad,180,180,1,0,0,0,1,
+_reference,180,,,,,,,
+_counts,180,ref_feasible=180,ref_infeasible=0,ambiguous=0,invalid=0,user_problems=720,,

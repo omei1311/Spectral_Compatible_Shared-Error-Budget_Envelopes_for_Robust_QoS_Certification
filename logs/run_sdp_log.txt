@@ -1,0 +1,30 @@
+﻿--- SDP smallcheck (pre-fixed selection rules) ---
+[sdp:PASS] smallcheck: all instances solved or r_zero 
+[sdp:PASS] smallcheck: SDP t matches trust-region reference max abs diff=2.049e-08, max rel=2.049e-08
+[sdp:PASS] smallcheck: corrected bound never exceeds reference max excess=0.000e+00
+[sdp:info] smallcheck n=74, median wall 0.0074 s/solve; projected 2160-user batch ~16 s per pass
+--- SDP full validation batch ---
+[sdp:info] batch seed 211 done
+[sdp:info] batch seed 212 done
+[sdp:info] batch seed 213 done
+[sdp:info] batch seed 214 done
+[sdp:info] batch seed 215 done
+[sdp:PASS] batch: all SDP solves valid 
+[sdp:PASS] batch: SDP t matches trust-region reference max abs=5.573e-08, max rel=5.573e-08
+[sdp:PASS] batch: corrected bound never exceeds reference max excess=-1.169e-13
+[sdp:info] batch n=2160; status agreement with TR: 2160/2160 (100.00%); median wall 0.0107 s
+--- SDP pipeline comparison ---
+[sdp:info] pipelines seed 211 done
+[sdp:info] pipelines seed 212 done
+[sdp:info] pipelines seed 213 done
+[sdp:info] pipelines seed 214 done
+[sdp:info] pipelines seed 215 done
+[sdp:info] Lq_QG_SDP: median 0.3579 s per (seed,gamma); SDP calls 435; agreement min 36/36
+[sdp:info] Q_G_SDP: median 0.4782 s per (seed,gamma); SDP calls 496; agreement min 36/36
+[sdp:info] Q_old_SDP: median 0.4599 s per (seed,gamma); SDP calls 511; agreement min 36/36
+[sdp:info] SDP_pure: median 1.1799 s per (seed,gamma); SDP calls 1319; agreement min 36/36
+[sdp:info] TR_pure: median 0.0883 s per (seed,gamma); SDP calls 1319; agreement min 36/36
+--- SDP figures ---
+[sdp:info] figures written to results_v41_sdp\figures
+
+=== SDP round PASSED ===

@@ -1,0 +1,116 @@
+{
+ "written_at": "2026-10-07T14:54:50",
+ "batches": [
+  {
+   "batch": "easy (seeds 11-55)",
+   "source": "results/",
+   "units": 180,
+   "feasible": 180,
+   "D": 180,
+   "Q_old": 180,
+   "Q_G": 180,
+   "L_quad": 180,
+   "qg_added": 0,
+   "coverage_qg": 1.0,
+   "coverage_old": 1.0,
+   "note": "saturated: zero additional accepts"
+  },
+  {
+   "batch": "sensitivity (seeds 11-110)",
+   "source": "results_review/",
+   "units": 1080,
+   "feasible": 472,
+   "D": 326,
+   "Q_old": 380,
+   "Q_G": 390,
+   "L_quad": 408,
+   "qg_added": 10,
+   "coverage_qg": 0.826271186440678,
+   "coverage_old": 0.8050847457627118
+  },
+  {
+   "batch": "validation (seeds 211-215)",
+   "source": "results_v41/",
+   "units": 540,
+   "feasible": 159,
+   "D": 111,
+   "Q_old": 125,
+   "Q_G": 126,
+   "L_quad": 138,
+   "qg_added": 1,
+   "coverage_qg": 0.7924528301886793,
+   "coverage_old": 0.7861635220125787
+  },
+  {
+   "batch": "heterogeneous links (seeds 301-305)",
+   "source": "results_v6/",
+   "units": 540,
+   "feasible": 211,
+   "D": 145,
+   "Q_old": 156,
+   "Q_G": 163,
+   "L_quad": 186,
+   "qg_added": 7,
+   "coverage_qg": 0.7725118483412322,
+   "coverage_old": 0.7393364928909952,
+   "note": "illustrative pool; dB = 20log10(rho) is a deterministic energy-ratio interpretation"
+  },
+  {
+   "batch": "joint (sensitivity)",
+   "source": "(derived)",
+   "units": 1080,
+   "feasible": 472,
+   "Q_old": 380,
+   "Q_G": 390,
+   "L_quad": 408,
+   "joint": 424,
+   "qg_added": 10,
+   "coverage_qg": 0.826271186440678,
+   "coverage_old": 0.8050847457627118,
+   "joint_only": true
+  },
+  {
+   "batch": "joint (validation)",
+   "source": "(derived)",
+   "units": 540,
+   "feasible": 159,
+   "Q_old": 125,
+   "Q_G": 126,
+   "L_quad": 138,
+   "joint": 139,
+   "qg_added": 1,
+   "coverage_qg": 0.7924528301886793,
+   "coverage_old": 0.7861635220125787,
+   "joint_only": true
+  },
+  {
+   "batch": "joint (het)",
+   "source": "(derived)",
+   "units": 540,
+   "feasible": 211,
+   "Q_old": 156,
+   "Q_G": 163,
+   "L_quad": 186,
+   "joint": 190,
+   "qg_added": 7,
+   "coverage_qg": 0.7725118483412322,
+   "coverage_old": 0.7393364928909952,
+   "joint_only": true
+  }
+ ],
+ "checks": [
+  {
+   "name": "easy pool shows zero additional accepts (no 'positive in every batch' claim)",
+   "ok": true
+  },
+  {
+   "name": "sensitivity Q_G added = 10",
+   "ok": true
+  },
+  {
+   "name": "validation Q_G added = 1",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

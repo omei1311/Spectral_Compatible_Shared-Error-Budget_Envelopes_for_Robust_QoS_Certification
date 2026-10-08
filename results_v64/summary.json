@@ -1,0 +1,13 @@
+{
+ "direct_A": 119,
+ "direct_B": 123,
+ "direct_J": 124,
+ "ref_feasible": 130,
+ "tr_queries": 217,
+ "unresolved": 0,
+ "units": 240,
+ "build_ms_six": 0.08297708336613141,
+ "build_ms_compact": 0.022602083239083488,
+ "bytes_compact": 144.0,
+ "bytes_full": 1664.0
+}

@@ -1,0 +1,61 @@
+﻿--- optimization: complementarity from existing data ---
+[opt:info] complementarity exploration: units 1080 feasible 472 | Q_G 390 L_quad 408 joint 424 | onlyQG 16 onlyLq 34 joint-adds-over-neither 0 | violations 0 misaccepts 0
+[opt:info] complementarity validation: units 540 feasible 159 | Q_G 126 L_quad 138 joint 139 | onlyQG 1 onlyLq 13 joint-adds-over-neither 0 | violations 0 misaccepts 0
+--- optimization: cascade comparison + timing (exploration) ---
+[opt:info] cascade exploration: seed 11 done
+[opt:info] cascade exploration: seed 22 done
+[opt:info] cascade exploration: seed 33 done
+[opt:info] cascade exploration: seed 44 done
+[opt:info] cascade exploration: seed 55 done
+[opt:info] cascade exploration: seed 66 done
+[opt:info] cascade exploration: seed 77 done
+[opt:info] cascade exploration: seed 88 done
+[opt:info] cascade exploration: seed 99 done
+[opt:info] cascade exploration: seed 110 done
+[opt:info] D_Lq_QG_ref vs pure_ref: wins 25/30, median pair ratio 1.90, ratio of medians 1.93, refs 731 vs 2946
+[opt:info] D_Lq_QG_ref vs L_quad_ref: wins 4/30, median pair ratio 0.78, ratio of medians 0.75, refs 731 vs 802
+[opt:info] D_QG_Lq_ref vs pure_ref: wins 25/30, median pair ratio 1.86, ratio of medians 1.86, refs 731 vs 2946
+[opt:info] D_QG_Lq_ref vs L_quad_ref: wins 3/30, median pair ratio 0.73, ratio of medians 0.73, refs 731 vs 802
+[opt:info] L_quad_ref vs pure_ref: wins 29/30, median pair ratio 2.65, ratio of medians 2.57, refs 802 vs 2946
+[opt:info] Lq_QG_ref vs pure_ref: wins 25/30, median pair ratio 2.12, ratio of medians 2.10, refs 731 vs 2946
+[opt:info] Lq_QG_ref vs L_quad_ref: wins 4/30, median pair ratio 0.79, ratio of medians 0.82, refs 731 vs 802
+[opt:info] QG_Lq_ref vs pure_ref: wins 21/30, median pair ratio 1.69, ratio of medians 1.75, refs 731 vs 2946
+[opt:info] QG_Lq_ref vs L_quad_ref: wins 0/30, median pair ratio 0.64, ratio of medians 0.68, refs 731 vs 802
+[opt:info] QG_adaptive_Lq_ref vs pure_ref: wins 19/30, median pair ratio 1.45, ratio of medians 1.41, refs 730 vs 2946
+[opt:info] QG_adaptive_Lq_ref vs L_quad_ref: wins 0/30, median pair ratio 0.56, ratio of medians 0.55, refs 730 vs 802
+[opt:info] Q_G_ref vs pure_ref: wins 24/30, median pair ratio 1.66, ratio of medians 1.73, refs 821 vs 2946
+[opt:info] Q_G_ref vs L_quad_ref: wins 0/30, median pair ratio 0.67, ratio of medians 0.67, refs 821 vs 802
+[opt:info] Q_old_ref vs pure_ref: wins 24/30, median pair ratio 1.71, ratio of medians 1.67, refs 850 vs 2946
+[opt:info] Q_old_ref vs L_quad_ref: wins 0/30, median pair ratio 0.70, ratio of medians 0.65, refs 850 vs 802
+[opt:info] pure_ref vs L_quad_ref: wins 1/30, median pair ratio 0.38, ratio of medians 0.39, refs 2946 vs 802
+--- optimization: adaptive vs fixed resolution ---
+[opt:info] adaptive vs fixed (exploration): accepts 256/4096/adaptive = 390/390/390; cells adaptive 176768 vs fixed-256 686592
+[opt:PASS] adaptive acceptance equals fixed J=4096 acceptance 
+--- optimization: freeze strategy ---
+[opt:info] selected pipeline: Lq_QG_ref (totals: [('Lq_QG_ref', 0.822, 731), ('D_Lq_QG_ref', 0.858, 731), ('D_QG_Lq_ref', 0.891, 731), ('QG_Lq_ref', 0.991, 731), ('QG_adaptive_Lq_ref', 1.169, 730)])
+--- optimization: confirmation on fresh seeds ---
+[opt:info] cascade confirmation: seed 221 done
+[opt:info] cascade confirmation: seed 222 done
+[opt:info] cascade confirmation: seed 223 done
+[opt:info] cascade confirmation: seed 224 done
+[opt:info] cascade confirmation: seed 225 done
+[opt:info] L_quad_ref vs pure_ref: wins 15/15, median pair ratio 2.52, ratio of medians 2.39, refs 422 vs 1424
+[opt:info] Lq_QG_ref vs pure_ref: wins 11/15, median pair ratio 2.01, ratio of medians 2.02, refs 394 vs 1424
+[opt:info] Lq_QG_ref vs L_quad_ref: wins 2/15, median pair ratio 0.78, ratio of medians 0.84, refs 394 vs 422
+[opt:info] Q_G_ref vs pure_ref: wins 11/15, median pair ratio 1.46, ratio of medians 1.50, refs 471 vs 1424
+[opt:info] Q_G_ref vs L_quad_ref: wins 0/15, median pair ratio 0.66, ratio of medians 0.63, refs 471 vs 422
+[opt:info] pure_ref vs L_quad_ref: wins 0/15, median pair ratio 0.40, ratio of medians 0.42, refs 1424 vs 422
+--- optimization: verification suite ---
+[opt:PASS] all implemented lower bounds <= exact reference max excess=0.00e+00 over 864 checks
+[opt:PASS] stage order invariance of accepted set 
+[opt:PASS] determinism of repeated runs 
+[opt:PASS] joint acceptance contains singles (exploration) 
+[opt:PASS] joint acceptance contains singles (validation) 
+--- optimization: scale experiment ---
+[opt:info] scale S done
+[opt:info] scale M done
+[opt:info] scale L done
+--- optimization: figures ---
+[opt:info] figures written to results_v41_optimization\figures
+
+=== optimization suite PASSED ===

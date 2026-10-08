@@ -1,0 +1,22 @@
+{
+ "mode": "full",
+ "finished_at": "2026-10-06T21:38:26",
+ "selected_pipeline": "Lq_QG_ref",
+ "failures": [],
+ "complementarity": {
+  "exploration": {
+   "units": 1080,
+   "feasible": 472,
+   "qg": 390,
+   "lq": 408,
+   "joint": 424
+  },
+  "validation": {
+   "units": 540,
+   "feasible": 159,
+   "qg": 126,
+   "lq": 138,
+   "joint": 139
+  }
+ }
+}

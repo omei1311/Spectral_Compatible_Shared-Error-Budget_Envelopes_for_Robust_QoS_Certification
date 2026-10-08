@@ -1,0 +1,10 @@
+{
+  "non_degenerate_constructions": 251,
+  "boundary_instances": 60,
+  "max_six_scalar_error": 2.886579864025407e-15,
+  "max_objective_identity_error": 1.2434497875801753e-14,
+  "max_stationarity_residual": 4.497516761492976e-15,
+  "min_interpolation_t": 5.972137928933119e-07,
+  "seed": 202610061,
+  "note": "Numerical consistency checks; proofs are analytical in V4.1."
+}

@@ -1,0 +1,62 @@
+case,ok,detail
+lemma1/A_zero_op_I0=0,True,max summary err 4.44e-16
+lemma1/A_zero_op_badI0(negative),True,class with alpha=beta=beta0=0 and I0=2.6 is empty: construction yields I0=0 as required
+lemma1/B_parallel,True,max summary err 4.44e-16
+lemma1/C_alpha0,True,max summary err 4.44e-16
+lemma1/C_alpha0_I0=0,True,max summary err 4.44e-16
+lemma1/D_I0<aa,True,max summary err 4.44e-16
+lemma1/D_I0>aa,True,max summary err 4.44e-16
+lemma1/D_I0=aa,True,max summary err 4.44e-16
+lemma1/D_upper_endpoint,True,max summary err 4.44e-16
+lemma1/E_Jperp=0,True,max summary err 4.44e-16
+lemma1/E_Jperp>0,True,max summary err 4.44e-16
+lemma2/b1,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.483322, out=0.483322)"
+lemma2/b2,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.550000, out=0.550000)"
+lemma2/b3,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.495826, out=0.495826)"
+lemma2/y=0,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.500000, out=0.500000)"
+lemma2/x=0,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.500000, out=0.500000)"
+lemma2/upper_endpoint,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.480000, out=0.480000)"
+lemma2/beta_eq_beta0,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.536656, out=0.536656)"
+lemma2/alpha=0,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.360000, out=0.360000)"
+lemma2/beta=0,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.360000, out=0.360000)"
+lemma2/zero_op,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.000000, out=0.000000)"
+lemma2/random0,True,"summaries err 2.22e-16, |C^He - R| 1.11e-16 (R=0.680968, out=0.680968)"
+lemma2/random1,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.853582, out=0.853582)"
+lemma2/random2,True,"summaries err 5.00e-16, |C^He - R| 0.00e+00 (R=0.293571, out=0.293571)"
+lemma2/random3,True,"summaries err 2.22e-16, |C^He - R| 0.00e+00 (R=0.724980, out=0.724980)"
+lemma2/random4,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.142406, out=0.142406)"
+lemma2/random5,True,"summaries err 0.00e+00, |C^He - R| 1.11e-16 (R=0.524780, out=0.524780)"
+lemma2/random6,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.495227, out=0.495227)"
+lemma2/random7,True,"summaries err 2.22e-16, |C^He - R| 0.00e+00 (R=0.266275, out=0.266275)"
+lemma2/random8,True,"summaries err 1.11e-16, |C^He - R| 0.00e+00 (R=0.773822, out=0.773822)"
+lemma2/random9,True,"summaries err 1.11e-16, |C^He - R| 0.00e+00 (R=0.351342, out=0.351342)"
+lemma2/random10,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.533468, out=0.533468)"
+lemma2/random11,True,"summaries err 1.11e-16, |C^He - R| 2.78e-17 (R=0.245390, out=0.245390)"
+lemma2/random12,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.706745, out=0.706745)"
+lemma2/random13,True,"summaries err 2.22e-16, |C^He - R| 0.00e+00 (R=0.737003, out=0.737003)"
+lemma2/random14,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.400316, out=0.400316)"
+lemma2/random15,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.557359, out=0.557359)"
+lemma2/random16,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.283242, out=0.283242)"
+lemma2/random17,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.279568, out=0.279568)"
+lemma2/random18,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.760236, out=0.760236)"
+lemma2/random19,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.506087, out=0.506087)"
+lemma2/random20,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.701255, out=0.701255)"
+lemma2/random21,True,"summaries err 2.22e-16, |C^He - R| 0.00e+00 (R=0.600662, out=0.600662)"
+lemma2/random22,True,"summaries err 0.00e+00, |C^He - R| 1.11e-16 (R=0.512909, out=0.512909)"
+lemma2/random23,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.469957, out=0.469957)"
+lemma2/random24,True,"summaries err 2.22e-16, |C^He - R| 1.11e-16 (R=0.838239, out=0.838239)"
+lemma2/random25,True,"summaries err 0.00e+00, |C^He - R| 5.55e-17 (R=0.261932, out=0.261932)"
+lemma2/random26,True,"summaries err 2.22e-16, |C^He - R| 0.00e+00 (R=0.661882, out=0.661882)"
+lemma2/random27,True,"summaries err 2.22e-16, |C^He - R| 1.11e-16 (R=0.932703, out=0.932703)"
+lemma2/random28,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.115342, out=0.115342)"
+lemma2/random29,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.842303, out=0.842303)"
+lemma2/random30,True,"summaries err 2.22e-16, |C^He - R| 0.00e+00 (R=0.882778, out=0.882778)"
+lemma2/random31,True,"summaries err 0.00e+00, |C^He - R| 1.11e-16 (R=0.581825, out=0.581825)"
+lemma2/random32,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.242203, out=0.242203)"
+lemma2/random33,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.503000, out=0.503000)"
+lemma2/random34,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.910303, out=0.910303)"
+lemma2/random35,True,"summaries err 2.22e-16, |C^He - R| 0.00e+00 (R=0.650294, out=0.650294)"
+lemma2/random36,True,"summaries err 0.00e+00, |C^He - R| 5.55e-17 (R=0.290203, out=0.290203)"
+lemma2/random37,True,"summaries err 0.00e+00, |C^He - R| 1.11e-16 (R=0.831028, out=0.831028)"
+lemma2/random38,True,"summaries err 0.00e+00, |C^He - R| 2.22e-16 (R=1.144759, out=1.144759)"
+lemma2/random39,True,"summaries err 0.00e+00, |C^He - R| 0.00e+00 (R=0.866337, out=0.866337)"

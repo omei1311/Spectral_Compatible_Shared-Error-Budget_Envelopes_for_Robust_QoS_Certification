@@ -1,0 +1,5 @@
+delta,beta0,Q_G,Q_partial,h_norm,obj_at_e,note
+0,1,-0.21,0.59,1,nan,boundary instance
+0.1,1.00498756211,-0.211028485152,nan,20.0249843945,-0.21,nondegenerate family
+0.03,1.0004498988,-0.21009257073,nan,66.6741662448,-0.21,nondegenerate family
+0.01,1.00004999875,-0.210010285706,nan,200.002499984,-0.21,nondegenerate family

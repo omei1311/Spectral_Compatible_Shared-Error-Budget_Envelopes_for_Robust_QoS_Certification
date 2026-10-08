@@ -1,0 +1,24 @@
+{
+ "cohort": "validation",
+ "units": 540,
+ "qg": 126,
+ "lq": 138,
+ "joint": 139,
+ "feasible": 159,
+ "only_qg": 1,
+ "only_lq": 13,
+ "jadd_neither": 0,
+ "mis_joint": 0,
+ "viol_joint": 0,
+ "invalid": 0,
+ "user_level": {
+  "n": 2160,
+  "only_qg": 52,
+  "only_lq": 85,
+  "both": 1008,
+  "neither": 1015
+ },
+ "coverage_qg": 0.7924528301886793,
+ "coverage_lq": 0.8679245283018868,
+ "coverage_joint": 0.8742138364779874
+}

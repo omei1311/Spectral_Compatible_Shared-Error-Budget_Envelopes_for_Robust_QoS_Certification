@@ -1,0 +1,7 @@
+rho,nmse_db,interpretation
+0.06,-24.4369749923,worst-case relative error ball r = rho*||h_hat||; rho^2 equals the NMSE if the bound is set from E||e||^2/E||h||^2
+0.15,-16.4781748189,worst-case relative error ball r = rho*||h_hat||; rho^2 equals the NMSE if the bound is set from E||e||^2/E||h||^2
+0.3,-10.4575749056,worst-case relative error ball r = rho*||h_hat||; rho^2 equals the NMSE if the bound is set from E||e||^2/E||h||^2
+0.1,-20,reverse mapping: dB target -> relative radius
+0.177827941004,-15,reverse mapping: dB target -> relative radius
+0.316227766017,-10,reverse mapping: dB target -> relative radius

@@ -1,0 +1,35 @@
+{
+ "written_at": "2026-10-07T16:15:15",
+ "seeds": [
+  401,
+  402
+ ],
+ "gamma": 1.0,
+ "noise": 0.05,
+ "rho_grid": [
+  0.00631,
+  0.0095,
+  0.01431,
+  0.02154,
+  0.03244,
+  0.04885,
+  0.07356,
+  0.11078,
+  0.16681,
+  0.25119
+ ],
+ "batch": [
+  1,
+  10,
+  100
+ ],
+ "reps": 3,
+ "J": 256,
+ "scenario": "cached descriptors, repeated absolute-radius queries; radius sequence = the grid, cycled for longer batches",
+ "branches": "A six-scalar QG | B L_quad | C joint | D compact TR | E full TR (audit)",
+ "storage": "float64 payload bytes; compact cache = actual array nbytes (lam, w, c, scale)",
+ "code_hashes": {
+  "summary_clients.py": "cf184ab923b219dbce8d63b0bd590d3dbc8c4d9285374e1ec574e0a6ad899318",
+  "v64_experiment.py": "0c94d18a0865264c0e0641e51d7794ea318615c60b4d0cd204229ff37f4f7008"
+ }
+}

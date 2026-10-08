@@ -1,0 +1,85 @@
+﻿--- V4.1 theory ---
+[v41:PASS] theory constructions built (97/97)
+[v41:PASS] six-scalar recovery max=2.29e-15
+[v41:PASS] spectral summary errors max=4.44e-16
+[v41:PASS] M_epsilon positive definite min=3.02e-07
+[v41:PASS] epsilon-loss identity within bound 
+[v41:PASS] paper bound (22) holds at minimizers 
+[v41:PASS] constructed objective >= Q_G 
+[v41:PASS] Q_G <= q* on constructions 
+[v41:PASS] references valid 
+[v41:PASS] objective converges in eps 
+[v41:PASS] boundary attainment Q_partial == q* max dev=3.55e-15
+[v41:PASS] boundary objective == Q_partial max dev=3.55e-15
+[v41:PASS] both c_parallel signs covered 
+[v41:info] boundary four: p=2.0, I0=1.0 -> Q_partial=0.5900000000 (general Q_G=-0.210000)
+[v41:info] boundary four: p=0.2, I0=1.0 -> Q_partial=-1.2020000000 (general Q_G=-1.362000)
+[v41:info] boundary four: p=2.0, I0=1.3 -> Q_partial=-0.1810199234 (general Q_G=-1.020000)
+[v41:info] boundary four: p=0.2, I0=1.3 -> Q_partial=-1.9634817470 (general Q_G=-2.172000)
+[v41:PASS] nondegenerate family -> Q_G -> -0.21 Q_G=-0.210010, |h|=200.0
+[v41:PASS] degenerate/endpoints battery 36/36 ok
+--- V4.1 scan ---
+[B] 21 points; six-scalar max err over scan: 2.220e-16
+[B] strict improvement Q_G > Q_old (tol 1e-9): 20 points, beta0 in [1.0200, 1.3945]
+[B] points with q* < Q_G - tol (potential violation): 0
+[B] min over points of (q* - Q_G_LB): 6.633254e-03 (must be >= ~0)
+[B] points where L_quad > Q_G: 0 (no presupposed dominance)
+[B] certification flips (Q_G_LB > tau while Q_LB <= 0): 6 points, beta0 from 1.0791 to 1.1777
+[B] h norm range along scan: 2.22 .. 9.05
+[v41:PASS] B scan: certified LB never above reference 
+[v41:PASS] B scan: approx minima above reference only within roundoff max dev=0.00e+00
+--- V4.1 baseline pool ---
+[C] user-level problems: 720 (cap 720), candidate-radius units: 180
+[C] D       accepted=180/180 misaccept=0 unknown=  0 coverage=1.0000
+[C] Q_old   accepted=180/180 misaccept=0 unknown=  0 coverage=1.0000
+[C] Q_G     accepted=180/180 misaccept=0 unknown=  0 coverage=1.0000
+[C] L_quad  accepted=180/180 misaccept=0 unknown=  0 coverage=1.0000
+[C] reference: feasible=180 infeasible=0 ambiguous=0 invalid=0
+[C] Q_G-added direct accepts vs Q_old: 0
+[C] timing (5 seeds, median [range], seconds): screen 0.0255 (0.024571300004026853, 0.029194800001278054), full-ref 0.2540 (0.2528068000028725, 0.2590305999983684), screen+fallback 0.0172 (0.01642139999603387, 0.022500599996419623)
+[C] user-level fallback reference calls (sum of per-seed medians): 0 vs 720 full-reference user problems
+[v41:PASS] baseline pool: no misaccept 
+[v41:PASS] baseline pool easy-regime caveat recorded fallback calls=0 (saturated; no fallback economics)
+--- V4.1 exploration grid ---
+[v41:info] grid exploration: seed 11 done
+[v41:info] grid exploration: seed 22 done
+[v41:info] grid exploration: seed 33 done
+[v41:info] grid exploration: seed 44 done
+[v41:info] grid exploration: seed 55 done
+[v41:info] grid exploration: seed 66 done
+[v41:info] grid exploration: seed 77 done
+[v41:info] grid exploration: seed 88 done
+[v41:info] grid exploration: seed 99 done
+[v41:info] grid exploration: seed 110 done
+[v41:PASS] exploration: zero misacceptance (unit level) 
+[v41:PASS] exploration: references valid 
+--- V4.1 validation (pre-registered) ---
+[v41:info] grid validation: seed 211 done
+[v41:info] grid validation: seed 212 done
+[v41:info] grid validation: seed 213 done
+[v41:info] grid validation: seed 214 done
+[v41:info] grid validation: seed 215 done
+[v41:PASS] validation: zero misacceptance (unit level) 
+[v41:PASS] validation: references valid 
+--- V4.1 resolution + loss ---
+[v41:info] resolution exploration J=256: old=380 G=390 added=10 feasible=472
+[v41:info] resolution exploration J=1024: old=380 G=390 added=10 feasible=472
+[v41:info] resolution exploration J=4096: old=381 G=390 added=9 feasible=472
+[v41:info] resolution validation J=256: old=125 G=126 added=1 feasible=159
+[v41:info] resolution validation J=1024: old=125 G=126 added=1 feasible=159
+[v41:info] resolution validation J=4096: old=125 G=126 added=1 feasible=159
+[v41:PASS] resolution: no misacceptance at any J 
+--- V4.1 overlap ---
+[v41:PASS] validation seeds disjoint from previous pools 
+--- V4.1 TR tolerance ---
+[v41:OBSERVATION] TR tol-stop 1e-10: max|dq|=2.81e-08 (bar 1e-8), valid=True, median iters 34 (vs fixed 200)
+[v41:PASS] TR tol-stop 1e-12: max|dq|=5.70e-10 (bar 1e-8), valid=True, median iters 40 (vs fixed 200)
+[v41:PASS] TR: a tolerance variant matches the 200-iteration values within the 1e-8 bar with preserved validity usable tolerances=[1e-12]
+[v41:info] same-task timing reference: median 0.1496 s
+[v41:info] same-task timing reference_tol: median 0.0411 s
+[v41:info] same-task timing Q_G: median 0.0750 s
+[v41:info] same-task timing Q_G_tolfb: median 0.0323 s
+--- V4.1 figures ---
+[v41:info] figures written to D:\myworkspace-python\PythonProject\Spectral-Compatible Shared-Error-Budget Envelopes for Robust QoS Certification\results_v41\figures
+
+=== V4.1 suite PASSED ===

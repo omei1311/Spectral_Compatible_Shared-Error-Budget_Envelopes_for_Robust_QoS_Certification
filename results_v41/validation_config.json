@@ -1,0 +1,90 @@
+{
+ "mode": "full",
+ "written_at": "2026-10-06T20:28:55",
+ "purpose": "Pre-registered validation batch: fixed protocol declared before any validation-seed result was computed",
+ "validation_seeds": [
+  211,
+  212,
+  213,
+  214,
+  215
+ ],
+ "previously_used_seeds": [
+  11,
+  22,
+  33,
+  44,
+  55,
+  66,
+  77,
+  88,
+  99,
+  110
+ ],
+ "gammas": [
+  0.5,
+  1.0,
+  2.0
+ ],
+ "rhos": [
+  0.06,
+  0.15,
+  0.3
+ ],
+ "candidate_generation": {
+  "n_bs": 2,
+  "n_antennas": 4,
+  "n_users": 4,
+  "n_ris": 16,
+  "phases_2bit": true,
+  "phase_states_per_seed": 6,
+  "first_phase_all_ones": true,
+  "beam_types": [
+   "MRT",
+   "RZF"
+  ],
+  "rzf_regularization": 0.1,
+  "per_stream_power": 0.5,
+  "same_cell_scale": 1.0,
+  "cross_cell_scale": 0.5,
+  "var_G": "CN(0,1/4)",
+  "var_f": "CN(0,1/16)",
+  "var_d": "CN(0,1/4)",
+  "effective_link": "h_{j,u}=s[d + G_j^H diag(theta) f_u]"
+ },
+ "acceptance": {
+  "rule": "interval lower bound > tau for all four users",
+  "J_cells": 256,
+  "kind": "Q_G",
+  "tau_rule": "1e-8 * max(1,|c_q|,2r||g||,r^2||A||_2)",
+  "nonpositive": "unknown only; never a rejection"
+ },
+ "reference_validity": "KKT checks in q_star_reference: ball violation, full stationarity residual, lambda_min(A+mu I), complementarity",
+ "timing": {
+  "repetitions": 3,
+  "interleaved": true,
+  "warmup": 1,
+  "per_user_eigh_cached": true,
+  "skip_certified_users": true,
+  "early_stop": "first clearly infeasible user",
+  "candidate_generation_timed": false,
+  "pipelines": [
+   "reference",
+   "D",
+   "Q_old",
+   "Q_G",
+   "L_quad"
+  ]
+ },
+ "resolution_ablation_J": [
+  256,
+  1024,
+  4096
+ ],
+ "code_hashes": {
+  "core.py": "d388d1c7c46d11d6767dba744191437fcf1485565a8e3983280446bf10d39b00",
+  "experiments_c.py": "46189afb375536858e733c2429ecd30e114a4a012d23c981638e3ce047cce2a1",
+  "experiments_v41.py": "e7a4dd4def2e687871258eae12ec14acb7a1b6fa27aeedf29c6ef00c6f3b3fc6",
+  "audit_and_stress.py": "9f60e87a02446c773ba4869e18e7ce965efdb2d174f5879b5afeb51fa254d202"
+ }
+}

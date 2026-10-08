@@ -1,0 +1,48 @@
+﻿--- v2 tests exposing the old error modes ---
+[sdp2:PASS] test neg_lb_feasible_not_rejected: unresolved (expected unresolved) q*=0.0346; v1 logic would have rejected on L=-0.5
+[sdp2:PASS] test neg_lb_with_witness_no_false_reject: unresolved (expected not infeasible) 
+[sdp2:PASS] test witness_confirms_infeasible: certified_infeasible (expected certified_infeasible) U=-0.957084252055549, q*=-0.9571175076515038
+[sdp2:PASS] test straddling_unresolved: unresolved (expected unresolved) 
+[sdp2:PASS] test near_threshold_consistent: certified_infeasible (expected consistent + threshold logic) |q*|/tau=8105677.9; synthetic threshold checks ok
+[sdp2:PASS] test witness_projected: projected=True, resid=0.0e+00 (expected projected, ball residual 0) raw norm 3.00 > r=0.5
+[sdp2:PASS] test nonfinite_input_invalid: invalid_input (expected invalid_input) 
+[sdp2:PASS] test non_hermitian_invalid: invalid_input (expected invalid_input) 
+[sdp2:PASS] test negative_radius_raises: ValueError (expected ValueError) 
+[sdp2:PASS] test invalid_flag_unresolved: unresolved_invalid (expected unresolved_invalid) 
+[sdp2:PASS] test scaling_invariant_decisions: certified_infeasible/certified_infeasible/certified_infeasible (expected identical across 1e-3..1e3) scales tested 1e-3, 1, 1e3 -> ['certified_infeasible', 'certified_infeasible', 'certified_infeasible']
+--- v2 smallcheck ---
+[sdp2:PASS] smallcheck: SDP t matches reference max abs=2.049e-08
+[sdp2:PASS] smallcheck: L never above reference max excess=0.000e+00
+[sdp2:PASS] smallcheck: U never below reference max deficit=2.062e-13
+--- v2 full batch (2160 user problems) ---
+[sdp2:info] batch seed 211 done
+[sdp2:info] batch seed 212 done
+[sdp2:info] batch seed 213 done
+[sdp2:info] batch seed 214 done
+[sdp2:info] batch seed 215 done
+[sdp2:PASS] batch: L (certified lower bound) never above reference max excess=-1.169e-13
+[sdp2:PASS] batch: U (witness upper bound) never below reference max deficit=1.333e-12
+[sdp2:PASS] batch: bound ordering L <= U violations=0
+[sdp2:PASS] batch: zero false acceptance 
+[sdp2:PASS] batch: zero false rejection 
+[sdp2:PASS] batch: witnesses inside the ball 
+[sdp2:info] batch n=2160 decisions={'certified_feasible': 1247, 'certified_infeasible': 913}; max|t-q*|=5.573e-08; max L-q*=-1.169e-13; max q*-U=1.333e-12
+--- v1 -> v2 decision-basis comparison ---
+[sdp2:info] v1 negative-LB 'infeasible' instances: 0; v2 re-confirmed via witness: 0; changed to unresolved: 0
+--- v2 pipelines (SDP-only and SDP+TR completion) ---
+[sdp2:info] pipelines seed 211 done
+[sdp2:info] pipelines seed 212 done
+[sdp2:info] pipelines seed 213 done
+[sdp2:info] pipelines seed 214 done
+[sdp2:info] pipelines seed 215 done
+[sdp2:info] Lq_QG_SDP: median 0.2683 s; unresolved units 0; TR-completion calls 0; SDP calls 435
+[sdp2:info] Lq_QG_SDP_TR: median 0.2705 s; unresolved units 0; TR-completion calls 0; SDP calls 435
+[sdp2:info] Q_G_SDP: median 0.3023 s; unresolved units 0; TR-completion calls 0; SDP calls 496
+[sdp2:info] Q_old_SDP: median 0.2840 s; unresolved units 0; TR-completion calls 0; SDP calls 511
+[sdp2:info] SDP_only: median 0.7193 s; unresolved units 0; TR-completion calls 0; SDP calls 1319
+[sdp2:info] SDP_plus_TR: median 0.7302 s; unresolved units 0; TR-completion calls 0; SDP calls 1319
+[sdp2:info] TR_pure: median 0.0415 s; unresolved units 0; TR-completion calls 0; SDP calls 1319
+--- v2 figures ---
+[sdp2:info] figures written to results_v41_sdp_corrected\figures
+
+=== SDP v2 round PASSED ===

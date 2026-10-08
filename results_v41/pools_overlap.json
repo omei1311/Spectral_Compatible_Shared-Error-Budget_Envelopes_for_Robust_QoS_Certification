@@ -1,0 +1,10 @@
+{
+ "baseline_user_problems": 720,
+ "exploration_user_problems": 4320,
+ "validation_user_problems": 2160,
+ "baseline_in_exploration": 240,
+ "baseline_or_exploration_union": 4800,
+ "validation_overlap_with_previous": 0,
+ "all_three_union": 6960,
+ "note": "user-level problem = (seed, candidate, user, rho, gamma); multiple radii/thresholds on one candidate are correlated"
+}

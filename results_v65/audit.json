@@ -1,0 +1,9 @@
+{
+  "hashes_match": true,
+  "timing_rows": 120,
+  "instrumented_queries": 213120,
+  "validation_checks": 877,
+  "fallback_rows": 960,
+  "all_final_decisions_agree": true,
+  "word_tables": 13
+}

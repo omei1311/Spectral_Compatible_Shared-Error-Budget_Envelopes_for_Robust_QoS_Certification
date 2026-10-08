@@ -1,0 +1,24 @@
+{
+ "cohort": "exploration",
+ "units": 1080,
+ "qg": 390,
+ "lq": 408,
+ "joint": 424,
+ "feasible": 472,
+ "only_qg": 16,
+ "only_lq": 34,
+ "jadd_neither": 0,
+ "mis_joint": 0,
+ "viol_joint": 0,
+ "invalid": 0,
+ "user_level": {
+  "n": 4320,
+  "only_qg": 113,
+  "only_lq": 150,
+  "both": 2432,
+  "neither": 1625
+ },
+ "coverage_qg": 0.826271186440678,
+ "coverage_lq": 0.864406779661017,
+ "coverage_joint": 0.8983050847457628
+}

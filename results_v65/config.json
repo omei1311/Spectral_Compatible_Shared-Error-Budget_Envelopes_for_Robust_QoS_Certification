@@ -1,0 +1,43 @@
+{
+ "written_at": "2026-10-07T17:50:28",
+ "gamma": 1.0,
+ "noise": 0.05,
+ "A": {
+  "family": "Sec.5 boundary family",
+  "deltas": [
+   0.1,
+   0.05,
+   0.03,
+   0.01
+  ],
+  "r": 0.2,
+  "H_grid": [
+   2,
+   5,
+   10,
+   20,
+   50,
+   100
+  ],
+  "n_starts": 400,
+  "seed": 65
+ },
+ "B": {
+  "seeds": [
+   211,
+   212,
+   213
+  ],
+  "rule": "users 0-2 of candidate 0, rho=0.15",
+  "c_grid": [
+   1,
+   1.25,
+   1.5,
+   2,
+   5
+  ],
+  "n_starts": 120,
+  "seed": 66
+ },
+ "semantics": "BH_upper = best found feasible instance value = UPPER estimate of B_H*(s); lower bound is Q_G(s)=B*(s); no global optimality claimed"
+}

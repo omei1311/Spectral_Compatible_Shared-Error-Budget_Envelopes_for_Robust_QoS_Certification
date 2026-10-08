@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeTabState">
+    <option name="tabSessions">
+      <map>
+        <entry key="0">
+          <value>
+            <TabSessionState>
+              <option name="provider" value="claude" />
+              <option name="sessionId" value="8a50697d-02d3-4259-8b9c-3938c5f61751" />
+              <option name="cwd" value="D:\myworkspace-python\PythonProject\Spectral-Compatible Shared-Error-Budget Envelopes for Robust QoS Certification" />
+              <option name="model" value="claude-sonnet-5[1m]" />
+              <option name="permissionMode" value="auto" />
+            </TabSessionState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+{
+  "renderer": "Microsoft Word COM and bundled Poppler; packaged render_docx unavailable because LibreOffice is absent",
+  "pages": 22,
+  "equations": 611,
+  "tables": 13,
+  "visual_review": "All 22 pages inspected; corrected span notation and table row splitting re-rendered and rechecked",
+  "source_word_consistent": true,
+  "limitations": "Floating-point guards and eigendecomposition are not formal interval certification"
+}

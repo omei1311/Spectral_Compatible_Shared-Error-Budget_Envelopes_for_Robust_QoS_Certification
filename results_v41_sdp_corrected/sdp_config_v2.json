@@ -1,0 +1,14 @@
+{
+ "written_at": "2026-10-06T23:21:09",
+ "correction_note": "v2: negative lower bounds never reject; infeasibility requires witness upper bound; v1 results retained in results_v41_sdp/ as history",
+ "solver": "CLARABEL",
+ "rounding_allowance_k": 10.0,
+ "cvxpy_version": "1.7.5",
+ "selection_rules": "identical to v1 sdp_config.json (pre-fixed)",
+ "code_hashes": {
+  "core.py": "d388d1c7c46d11d6767dba744191437fcf1485565a8e3983280446bf10d39b00",
+  "sdp_baseline.py": "27b16be848632eba567c65d59eabed09bda8365110074600335c33d8193bd739",
+  "sdp_baseline_v2.py": "8a45c6a1d6be053c48aa6b9eb867a0e99d05db313ba7d4cc3874ff67db06ad9c",
+  "optimization_v41.py": "fbf70508215bec9141713f3a6c4499c4583529e7ed0696992b27616c036d0c85"
+ }
+}

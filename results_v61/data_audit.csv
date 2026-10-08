@@ -1,0 +1,8 @@
+D,L_quad,Q_G,Q_old,batch,coverage_old,coverage_qg,feasible,joint,joint_only,note,qg_added,source,units
+180,180,180,180,easy (seeds 11-55),1.0000,1.0000,180,,,saturated: zero additional accepts,0,results/,180
+326,408,390,380,sensitivity (seeds 11-110),0.8051,0.8263,472,,,,10,results_review/,1080
+111,138,126,125,validation (seeds 211-215),0.7862,0.7925,159,,,,1,results_v41/,540
+145,186,163,156,heterogeneous links (seeds 301-305),0.7393,0.7725,211,,,illustrative pool; dB = 20log10(rho) is a deterministic energy-ratio interpretation,7,results_v6/,540
+,408,390,380,joint (sensitivity),0.8051,0.8263,472,424,True,,10,(derived),1080
+,138,126,125,joint (validation),0.7862,0.7925,159,139,True,,1,(derived),540
+,186,163,156,joint (het),0.7393,0.7725,211,190,True,,7,(derived),540

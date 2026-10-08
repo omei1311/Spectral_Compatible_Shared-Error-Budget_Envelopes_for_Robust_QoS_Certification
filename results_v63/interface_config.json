@@ -1,0 +1,34 @@
+{
+ "written_at": "2026-10-07T15:50:27",
+ "seeds": [
+  401,
+  402
+ ],
+ "gamma": 1.0,
+ "noise": 0.05,
+ "rho_grid": [
+  0.00631,
+  0.0095,
+  0.01431,
+  0.02154,
+  0.03244,
+  0.04885,
+  0.07356,
+  0.11078,
+  0.16681,
+  0.25119
+ ],
+ "queries": [
+  1,
+  10,
+  100
+ ],
+ "J": 256,
+ "ref_tol": 1e-12,
+ "candidate_rules": "identical to main pools (6 phases x MRT/RZF, per-BS power 1)",
+ "tau": "summary-only conservative scale (no full-geometry access at query time)",
+ "tasks": [
+  "certification-only",
+  "exact-decision-with-fallback"
+ ]
+}

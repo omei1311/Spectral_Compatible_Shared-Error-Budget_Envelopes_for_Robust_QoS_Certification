@@ -1,0 +1,31 @@
+case,ok,detail
+endpoint/QG,True,Q_G=-0.3119466960 (expected ~ -0.3119466960)
+endpoint/argmin,True,x=0.1833242752 y=0.0799512984
+endpoint/eps1e-01,True,"six-err 6.7e-16, ||h||=2.2360679775, obj-Q_G=2.01e-02, t_eps=1.000000"
+endpoint/eps1e-02,True,"six-err 4.4e-16, ||h||=2.2360679775, obj-Q_G=2.02e-03, t_eps=1.000000"
+endpoint/eps1e-03,True,"six-err 4.4e-16, ||h||=2.2360679775, obj-Q_G=2.02e-04, t_eps=1.000000"
+endpoint/eps1e-05,True,"six-err 4.4e-16, ||h||=2.2360679775, obj-Q_G=2.02e-06, t_eps=1.000000"
+endpoint/hnorm_bounded,True,all ||h|| ~ sqrt(5)=2.2360679775
+endpoint/obj_converges,True,final gap 2.02e-06 = O(eps) as proven (bound 22)
+attain/six,True,six-err 4.44e-16
+attain/ball,True,||e||=0.2000000000 vs r=0.2
+attain/equation,True,obj=-0.3119466960 vs Q_G=-0.3119466960 (diff 6.66e-16)
+attain/reference,True,q*=-0.3119466960
+rect/5x3/t0,True,"six 0.0e+00, |out-R| 0.0e+00"
+rect/5x3/t1,True,"six 2.2e-16, |out-R| 0.0e+00"
+rect/7x4/t0,True,"six 0.0e+00, |out-R| 0.0e+00"
+rect/7x4/t1,True,"six 2.2e-16, |out-R| 0.0e+00"
+rect/m>n/t0,True,"six 0.0e+00, |out-R| 0.0e+00"
+rect/m>n/t1,True,"six 2.2e-16, |out-R| 0.0e+00"
+rect/boundary_5x3,True,six 0.0e+00
+rect/boundary_7x4,True,six 0.0e+00
+switch/x=0,True,"six 1.1e-16, |out-R| 5.6e-17"
+switch/y=0,True,"six 0.0e+00, |out-R| 0.0e+00"
+switch/b12,True,|out-R| 0.0e+00
+switch/b23,True,|out-R| 0.0e+00
+lemma1/zero_op,True,six 4.4e-16
+lemma1/beta0_eq_alpha_beta0,True,six 4.4e-16
+lemma1/alpha0,True,six 4.4e-16
+lemma1/upper_endpt,True,six 4.4e-16
+lemma1/boundary_Jpos,True,six 4.4e-16
+lemma1/boundary_J0,True,six 4.4e-16

@@ -1,0 +1,9 @@
+{
+ "n_rows": 97,
+ "max_six_scalar_err": 2.293154839986805e-15,
+ "max_spectral_err": 4.440892098500626e-16,
+ "min_lambda_min_M": 3.020386333765456e-07,
+ "bound22_all_hold": true,
+ "q_star_ge_QG_all": true,
+ "references_valid_all": true
+}
